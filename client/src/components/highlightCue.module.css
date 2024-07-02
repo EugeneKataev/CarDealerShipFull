@@ -1,0 +1,33 @@
+.highlight {
+    border: 2px solid orange;
+    animation: pulse 1s infinite;
+}
+
+@keyframes pulse {
+    0% {
+        box-shadow: 0 0 0 0 rgba(245, 203, 77, 0.7);
+    }
+    70% {
+        box-shadow: 0 0 0 10px rgba(255, 0, 0, 0);
+    }
+    100% {
+        box-shadow: 0 0 0 0 rgba(255, 0, 0, 0);
+    }
+}
+
+.highlightInfo {
+    border: 2px solid rgb(53, 125, 150);
+    animation: pulseInfo 1s infinite;
+}
+
+@keyframes pulseInfo {
+    0% {
+        box-shadow: 0 0 0 0 rgba(53, 125, 150, 0.7);
+    }
+    70% {
+        box-shadow: 0 0 0 10px rgba(255, 0, 0, 0);
+    }
+    100% {
+        box-shadow: 0 0 0 0 rgba(255, 0, 0, 0);
+    }
+}

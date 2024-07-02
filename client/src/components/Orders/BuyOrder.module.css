@@ -1,0 +1,63 @@
+.buyOrderContainer {
+    right: 0;
+    top: 0;
+    bottom: 0;
+    width: 300px;
+    background-color: #f8f8f8;
+    box-shadow: -2px 0 5px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    overflow-y: auto;
+    transition: transform 0.3s ease-in-out;
+    transform: translateX(100%);
+}
+
+.buyOrderContainer.visible {
+    transform: translateX(0);
+}
+
+.selectedInfo {
+    margin-bottom: 20px;
+}
+
+.itemsList {
+    margin-bottom: 20px;
+}
+
+.itemEntry {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.itemEntry input {
+    width: 50px;
+    text-align: center;
+}
+
+.totalPrice {
+    font-size: 1.2em;
+    margin-bottom: 20px;
+}
+
+.submitBtn {
+    width: 100%;
+    padding: 10px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.submitBtn:hover {
+    background-color: #45a049;
+}
+.close{
+    width: fit-content;
+    float: right;
+    color: red;
+    cursor: pointer;
+    font-size: 19px;
+    font-weight: 600;
+}

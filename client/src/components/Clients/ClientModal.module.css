@@ -1,0 +1,33 @@
+/* ClientModal.module.css */
+
+.modalContent {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 5px;
+    max-width: 400px;
+    width: 100%;
+}
+
+.modalContent h2 {
+    margin-top: 0;
+}
+
+.modalContent form {
+    display: flex;
+    flex-direction: column;
+}
+
+.modalContent input {
+    margin-bottom: 10px;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+.modalContent button {
+    margin-top: 10px;
+}
+
+.modalContent p {
+    margin: 5px 0;
+}

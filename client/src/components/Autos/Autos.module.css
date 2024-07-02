@@ -1,0 +1,41 @@
+.autosContainer {
+    padding: 20px;
+    background-color: #3d3d3d;
+    border-radius: 8px;
+    height: 410px;
+}
+
+.autosList {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    height: 318px;
+    overflow-y: auto;
+}
+
+.autoItem {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    border-radius: 4px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+.autoItem:hover{
+    cursor: pointer;
+    background: #e6dea6;
+    transition: 0.3s ease;
+}
+
+.autoItem span {
+    margin-right: 10px;
+}
+.addBottom{
+    display: flex;
+    justify-content: center;
+    padding-top: 10px;
+}
+.addBottom button{
+    font-size: 17px;
+    padding: 6px 15px;
+}

@@ -1,0 +1,79 @@
+.ordersContainer {
+    padding: 20px;
+    background-color: #3d3d3d;
+    border-radius: 8px;
+    height: 470px;
+}
+
+.ordersContainer .main-block{
+    height: 440px !important;
+    overflow-y: auto;
+}
+
+.clientFilter {
+    margin-bottom: 20px;
+    font-weight: bold;
+    color: white;
+}
+
+.ordersList {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.orderItem {
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+}
+
+.orderSummary {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px;
+    background-color: #f0f0f0;
+}
+
+.orderSummary span {
+    font-weight: bold;
+}
+
+.orderDetails {
+    padding: 15px;
+    color: #fafafa;
+    background-color: #3d665e;
+}
+
+.orderDetails h4 {
+    margin-top: 0;
+    margin-bottom: 10px;
+}
+
+.orderDetails h5 {
+    margin-bottom: 5px;
+}
+
+.orderDetails ul {
+    list-style-type: none;
+    padding-left: 0;
+}
+
+.orderDetails li {
+    margin-bottom: 5px;
+}
+
+button {
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    padding: 8px 12px;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 0.9em;
+}
+
+button:hover {
+    background-color: #45a049;
+}

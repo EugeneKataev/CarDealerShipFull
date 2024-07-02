@@ -1,0 +1,45 @@
+.clientsContainer {
+    padding: 20px;
+    border-radius: 8px;
+    max-height: 410px;
+}
+
+.clientsList {
+    display: flex;
+    flex-direction: column;
+    height: 318px;
+    overflow-y: auto;
+}
+
+.clientItem {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    border-radius: 4px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.clientItem:hover{
+    cursor: pointer;
+    background: #759071;
+    transition: 0.3s ease;
+}
+
+.clientItem span {
+    margin-right: 10px;
+}
+.addBottom{
+    display: flex;
+    justify-content: center;
+    padding-top: 10px;
+}
+.addBottom button{
+    font-size: 17px;
+    padding: 6px 15px;
+}
+.clientsListBlock{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
